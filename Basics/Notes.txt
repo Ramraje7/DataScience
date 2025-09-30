@@ -1,0 +1,71 @@
+Imp: 3-4 Projects, Resume and LinkedIn Profiles
+----------------------------------------------------------------------------------------------------------------------------------
+Info Data Tpes:
+1) bool - x = True
+2) int - x = 786
+3) real/float - x = 14.3
+4) char - x = "L"
+5) string/str - x = "I'm Ram"
+6) complex - x = 3j
+7) list: ordered collection with duplicate values allowed - x = ["greeke","end","war"] -->> mutable
+8) tuple - x = ("greeke","end","war") -->> immutable
+9) range - x = range(0,10)
+10) dict - x = {"name":"Ram", "age":24} -->> mutable
+11) set: unordered collection with unique values - x = {"greeke","end","war"} -->> mutable
+12) frozenset - x = frozenset({"greeke","end","war"}) -->> immutable
+13) array - x = intarray(4)
+14) memoryview - x = memoryview(bytes(6))
+15) NoneType - x = None
+----------------------------------------------------------------------------------------------------------------------------------
+Warn Functions:
+A function is a named block of reusable code that accepts inputs (arguments), does work, and optionally returns a value. 
+Functions are first-class in Python: they can be assigned to variables, passed as arguments, and returned from other functions.
+
+Info Function arguments
+1) Positional arguments: def f(a, b):
+2) Default arguments: def f(x=10):
+3) Keyword arguments: can call f(a=1, b=2)
+4) Var-positional (*args): collects extra positional args as a tuple
+5) Var-keyword (**kwargs): collects extra keyword args as a dict
+6) Keyword-only args (after *): def f(a, *, b): — b must be passed by name
+----------------------------------------------------------------------------------------------------------------------------------
+Warn Class:
+A class is a blueprint for creating objects (instances) grouping state (attributes) and behavior (methods). 
+Python uses dynamic typing and runtime objects.
+In class, functions = methods = [function(self)], variables = attributes  
+### "self" represents the instance being initialized.
+----------------------------------------------------------------------------------------------------------------------------------
+Info Constructor: 
+Constructs the class variables.
+Special (dunder) methods — operator overloading and protocols
+Implement Python protocols to behave like built-ins:
+1) Construction/Utils: __init__, __new__, __repr__, __str__ 
+2) Comparison: __eq__, __lt__, __hash__
+3) Container protocol: __len__, __getitem__, __setitem__, __contains__
+4) Iteration: __iter__, __next__
+5) Context manager: __enter__, __exit__
+6) Callable objects: __call__
+### "__init__" just initializes an object that has already been created. Define atttributes/variables for class inside "__init__".
+----------------------------------------------------------------------------------------------------------------------------------
+Info Inheritance:
+Inheritance allows a class (child / subclass) to reuse and extend the behavior of another class (parent / base class).
+super().__init__() to ensure full initialization in child class
+----------------------------------------------------------------------------------------------------------------------------------
+Info Objects:
+Objects are instances of blueprint called class. Using "self" in methods means passing objects in classes.
+----------------------------------------------------------------------------------------------------------------------------------
+Warn main: Executes class only for main file and not from files where class is imported. 
+if __name__ == "__main__":
+    print(obj(method))
+----------------------------------------------------------------------------------------------------------------------------------
+Info MultiThreading in Data Engineering:
+
+----------------------------------------------------------------------------------------------------------------------------------
+Info Asynchronous Python:
+
+----------------------------------------------------------------------------------------------------------------------------------
+Warn Projects: Fake News/Bot Detection, Art generator, 
+Apps: Kaggle,
+Libraries: PyTorch, Tensor
+(AI/ML/Python/DataScience/Math/LLMs/DevOps)
+----------------------------------------------------------------------------------------------------------------------------------
